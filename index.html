@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potencia Latina 90.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo Potencia Latina 90.0">
+            <h1>Potencia Latina 90.0</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#escuchar">Escuchar</a></li>
+                <li><a href="#redes">Redes Sociales</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>¡LA MEJOR MÚSICA LAS 24 HORAS!</h2>
+            <p>Sintoniza Potencia Latina 90.0 y disfruta de los ritmos que mueven al mundo.</p>
+            <a href="#escuchar" class="btn">Escuchar Ahora</a>
+        </div>
+    </section>
+
+    <section id="escuchar" class="listen">
+        <h2>Escucha Potencia Latina 90.0</h2>
+        <button id="play-button" class="btn">▶️ Escuchar en Vivo</button>
+        <audio id="radio-stream" src="https://uk25freenew.listen2myradio.com/live.mp3?typeportmount=s2_18487_stream_146148502" controls style="display: none;"></audio>
+    </section>
+
+    <section id="redes" class="social">
+        <h2>Síguenos en Redes Sociales</h2>
+        <div class="social-links">
+            <a href="https://twitter.com/potencialatina" target="_blank">WhatsApp</a>
+            <a href="https://facebook.com/potencialatina" target="_blank">Facebook</a>
+            <a href="https://twitter.com/potencialatina" target="_blank">TikTok</a>
+            <a href="https://instagram.com/potencialatina" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o comentario? ¡Contáctanos!</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Nombre" required>
+            <input type="email" id="email" placeholder="Correo Electrónico" required>
+            <textarea id="message" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Potencia Latina 90.0. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
